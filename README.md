@@ -86,6 +86,6 @@ in the Employee class that calculates these things.
 ![](fig2.jpg)
 5. Finally create a method for printing a list of sales made by an employee – **PrintSalesList()**.
 ![](fig3.png)
-Optionally, do the same for customers - **PrintPurchasesList()**.
+6. Optionally, do the same for customers - **PrintPurchasesList()**.
 ![](fig4.png)
 
