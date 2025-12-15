@@ -151,7 +151,7 @@ Let the *Car*, *Motorbike* and *Bus* class inherit from the *EngineVehicle* clas
 ### Excercise 3.4 
 Override the fuel and speed properties and make sure that the set-methods of the 
 properties checks the following rules for respective subclass. 
-    ```
+
     Fuel 
             ◦ A car can hold max 60 litres of fuel 
             ◦ A bus can hold max 150 litres of fuel 
@@ -159,7 +159,6 @@ properties checks the following rules for respective subclass.
     Speed 
             ◦ A bus can have a maximum speed of 120 km/hour 
             ◦ A car/motorbike can have a maximum speed of 160 km/hour 
-    ```
  
 ### Excercise 3.5 
 Make modifications to the methods implemented from the IDriveable so that Gas() and 
