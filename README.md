@@ -85,8 +85,8 @@ in the Employee class that calculates these things.
 4. Then create a method that prints out the sales statistics for a specific employee. 
 ![](fig2.jpg)
 5. Finally create a method for printing a list of sales made by an employee – **PrintSalesList()**.
-![](fig3.PNG)
+![](fig3.png)
 
 Optionally, do the same for customers - **PrintPurchasesList()**.
-![](fig4.PNG)
+![](fig4.png)
 
