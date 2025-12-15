@@ -1,4 +1,4 @@
-﻿# C# Object Oriented Programming Assignment 1
+﻿# C# OOP Assignment 1
 
 
 This assignment should be created in one Visual studio solution with three projects - 
@@ -20,7 +20,10 @@ is switched out with the actual value stored for the given object.
  
 ### Exercise 1.3 – Printing the person class directly 
 Try using the Console.WriteLine to write out the **Person** object to the screen by passing 
-the object as parameter. That is, Console.WriteLine( personObj ). What is the output? 
+the object as parameter. That is, Console.WriteLine( personObj ). What is the output?
+```
+    Excercise_1.Person
+```
 
 ### Exercise 1.4 – Printing the Person class directly (Continued) 
 Now, override the default ToString() method in the *Person* class, and let it return 
