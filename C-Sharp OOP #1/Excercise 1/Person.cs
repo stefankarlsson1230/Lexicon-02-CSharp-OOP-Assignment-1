@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
-
-namespace Excercise_1
+﻿namespace Excercise_1
 {
     internal class Person
     {
+        // Fields
+        private static int _instanceCount = 0;
+
         // Properties
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -15,6 +16,8 @@ namespace Excercise_1
             FirstName = firstName;
             LastName = lastName;
             Age = age;
+
+            IncreaseInstanceCount();
         }
 
         // Methods
@@ -27,5 +30,14 @@ namespace Excercise_1
         {
             return $"{FirstName} {LastName}, {Age} years old";        
         }
+
+        public static void IncreaseInstanceCount()
+        { 
+            _instanceCount++; 
+        }
+    
+        public static int GetInstanceCount() => _instanceCount;
+
+
     }
 }

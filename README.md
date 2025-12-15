@@ -33,12 +33,12 @@ Try calling the Console.WriteLine(Person object) and see what happens.
 ### Exercise 1.5 – Counting the number of Person-objects created 
 In this example, we are going to write the functionality for keeping count of the 
 number of *Person* object created. Write a private static integer variable in the *Person*
-class named InstanceCount, and write a static method named IncreaseInstanceCount that 
+class named InstanceCount (*I changed this name to _instancCount*), and write a static method named IncreaseInstanceCount that 
 increases the InstanceCount variable by one each time the method is called. Also create 
 one static method that returns the current InstanceCount value.
 
 Where could you call the IncreaseInstanceCount method, so that it increases the 
-InstanceCount each time we create a new person? 
+InstanceCount each time we create a new person? *I call it from inside the Constructor.*
  
 ### Exercise 1.6 – Inheritance 
 Write an *Employee* class and a *Customer* class that are descendants (subclasses) 
