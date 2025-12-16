@@ -4,11 +4,13 @@
     {
         // Properties
         public double Salary { get; set; }
+        public List<Sale> SalesList { get; set; }
 
         // Constructors
         public Employee(string firstName, string lastName, int age, double salary): base(firstName, lastName, age)
         {
             Salary = salary;
+            SalesList = new List<Sale>();
         }
 
         // Methods
