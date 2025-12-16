@@ -72,7 +72,10 @@ Add a property, list of sale objects, in *Employee* class and *Customer* class.
 Implement a collection of Sale objects in both classes’ constructors – **SalesList** 
 and **PurchasesList**.
 
-Implement a method in Sale class that adds a new sale to the lists.  
+Implement a method in Sale class that adds a new sale to the lists.
+
+*I really don't understand the purpose of adding a NewSale method. This functionality 
+should be implemented in the constructor when the Sale is created.*
 
 ### Exercise 1.8 – Compute and display sales statistics  
 Just storing each sale does not do us much good since the company is interested in how 
@@ -92,6 +95,7 @@ in the Employee class that calculates these things.
 6. Optionally, do the same for customers - **PrintPurchasesList()**.
 ![](fig4.png)
 
+*The previous overrides for ToString() really did not help in these later assignments >:/*
 
 ## Exercise 2 - Interfaces: 
  

@@ -17,13 +17,18 @@
             Customer = customer;
             Employee = employee;
             TransactionDate = DateTime.Now;
-        }
 
-        // Methods
-        public void NewSale(Customer customer, Employee employee)
-        {
             customer.PurchasesList.Add(this);
             employee.SalesList.Add(this);
         }
+
+        // Methods
+
+        // This NewSale method is pointless. I will move this functionallity to the constructor 
+        // public void NewSale(Customer customer, Employee employee)
+        // {
+        //    customer.PurchasesList.Add(this);
+        //    employee.SalesList.Add(this);
+        // }
     }
 }
