@@ -74,8 +74,8 @@ and **PurchasesList**.
 
 Implement a method in Sale class that adds a new sale to the lists.
 
-*I really don't understand the purpose of adding a NewSale method. This functionality 
-should be implemented in the constructor when the Sale is created.*
+**I really don't understand the purpose of adding a NewSale method. This functionality 
+should be implemented in the constructor when the Sale is created.**
 
 ### Exercise 1.8 – Compute and display sales statistics  
 Just storing each sale does not do us much good since the company is interested in how 

@@ -3,4 +3,5 @@
     <File Path="../README.md" />
   </Folder>
   <Project Path="Excercise 1/Excercise 1.csproj" />
+  <Project Path="Excercise 2/Excercise 2.csproj" Id="a47668af-4866-4fac-8331-e4168f12a871" />
 </Solution>
