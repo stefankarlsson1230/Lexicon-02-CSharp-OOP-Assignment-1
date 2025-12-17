@@ -119,6 +119,9 @@ Some functionality in these methods will be implemented in the next exercise.
 Then create a static method (e.g. TestDrive) that takes an IDriveable object as 
 argument that will call the methods on the object in following sequence:
 
+**There is no need for this method to be static. I'm using top level statements, so
+any method I create will be a local function to main**
+
     1. StartEngine() 
     2. Gas() 
     3. TurnLeft() 
@@ -131,6 +134,10 @@ Try calling the method with objects, one from each class.
 
 How could interfaces be beneficial when creating an external library that someone 
 else could use? 
+
+*An interface variable can reference any class that implements the interface, so 
+different implementations of the interface could easily be swapped out to get
+different functionalities*
 
 
 ## Exercise 3 – Abstract class 
