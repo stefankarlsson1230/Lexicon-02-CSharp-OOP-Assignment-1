@@ -38,7 +38,7 @@ increases the InstanceCount variable by one each time the method is called. Also
 one static method that returns the current InstanceCount value.
 
 Where could you call the IncreaseInstanceCount method, so that it increases the 
-InstanceCount each time we create a new person? *I call it from inside the Constructor.*
+InstanceCount each time we create a new person? **I call it from inside the Constructor.**
  
 ### Exercise 1.6 – Inheritance 
 Write an *Employee* class and a *Customer* class that are descendants (subclasses) 
@@ -72,9 +72,7 @@ Add a property, list of sale objects, in *Employee* class and *Customer* class.
 Implement a collection of Sale objects in both classes’ constructors – **SalesList** 
 and **PurchasesList**.
 
-Implement a method in Sale class that adds a new sale to the lists.
-
-**I really don't understand the purpose of adding a NewSale method. This functionality 
+Implement a method in Sale class that adds a new sale to the lists. **I really don't understand the purpose of adding a NewSale method. This functionality 
 should be implemented in the constructor when the Sale is created.**
 
 ### Exercise 1.8 – Compute and display sales statistics  
@@ -95,7 +93,7 @@ in the Employee class that calculates these things.
 6. Optionally, do the same for customers - **PrintPurchasesList()**.
 ![](fig4.png)
 
-*The previous overrides for ToString() really did not help in these later assignments >:/*
+**The previous overrides for ToString() really did not help in these later assignments >:/**
 
 ## Exercise 2 - Interfaces: 
  
@@ -116,11 +114,9 @@ all three classes. You do not have to create any real logic inside the methods, 
 print a distinct message like “Turned left (Motorbike)” and “Started the engine (Car)”. 
 Some functionality in these methods will be implemented in the next exercise. 
 
-Then create a static method (e.g. TestDrive) that takes an IDriveable object as 
+Then create a static method (e.g. TestDrive) (**There is no need for this method to be static. I'm using top level statements, so
+any method I create will be a local function to main**) that takes an IDriveable object as 
 argument that will call the methods on the object in following sequence:
-
-**There is no need for this method to be static. I'm using top level statements, so
-any method I create will be a local function to main**
 
     1. StartEngine() 
     2. Gas() 
@@ -135,9 +131,9 @@ Try calling the method with objects, one from each class.
 How could interfaces be beneficial when creating an external library that someone 
 else could use? 
 
-*An interface variable can reference any class that implements the interface, so 
+**An interface variable can reference any class that implements the interface, so 
 different implementations of the interface could easily be swapped out to get
-different functionalities*
+different functionalities**
 
 
 ## Exercise 3 – Abstract class 
