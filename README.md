@@ -72,8 +72,8 @@ Add a property, list of sale objects, in *Employee* class and *Customer* class.
 Implement a collection of Sale objects in both classes’ constructors – **SalesList** 
 and **PurchasesList**.
 
-Implement a method in Sale class that adds a new sale to the lists. **I really don't understand the purpose of adding a NewSale method. This functionality 
-should be implemented in the constructor when the Sale is created.**
+Implement a method in Sale class that adds a new sale to the lists. **(I really don't understand the purpose of adding a NewSale method. This functionality 
+should be implemented in the constructor when the Sale is created.)**
 
 ### Exercise 1.8 – Compute and display sales statistics  
 Just storing each sale does not do us much good since the company is interested in how 
@@ -150,7 +150,8 @@ track of how fast a specific vehicle is currently driving.
 Create an abstract class named **EngineVehicle** that implements a property of type 
 int that stores the remaining fuel, and a property, Speed, of type int that holds 
 kilometres per hour. Implement a backing field (field) for both the speed and the 
-fuel property. Make both of the properties virtual.
+fuel property. Make both of the properties virtual. ** We already have RemainingFuel 
+and VehicleSpeed in the Interface. I will comment those out for this excercise.** 
 
 ### Excercise 3.2 
 Create a constructor for EngineVehicle that sets the Fuel and Speed to 0.
